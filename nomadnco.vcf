@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N;CHARSET=UTF-8:이;준섭;;;
+FN;CHARSET=UTF-8:이준섭
+ORG;CHARSET=UTF-8:노마드앤코 (NOMAD & CO.)
+TITLE;CHARSET=UTF-8:대표
+TEL;TYPE=CELL:010-3067-7503
+EMAIL;TYPE=INTERNET:nomad.n.co@kakao.com
+URL:https://blog.naver.com/subjun85
+ADR;TYPE=WORK;CHARSET=UTF-8:;;모래내로3길 11, 104호 (상암미르웰한올림);마포구;서울;;대한민국
+NOTE;CHARSET=UTF-8:네이버 마케팅 · AI 검색 최적화(GEO)
+END:VCARD
