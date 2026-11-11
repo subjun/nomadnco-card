@@ -41,8 +41,7 @@ body{background:var(--cream);color:var(--ink);font-family:'Noto Sans KR',system-
 .back{transform:rotateY(180deg)}
 .hint{margin:14px 0 0;text-align:center;font-size:12px;color:#B9C1D3}
 .body{padding:28px 20px 12px}
-.co{margin:0 0 10px;font-size:15px;font-weight:700;color:var(--gold-ink);letter-spacing:.02em}
-.co span{margin-left:6px;font-size:11px;font-weight:600;letter-spacing:.18em;color:var(--sub)}
+.brand .ko{margin-left:8px;font-size:12px;font-weight:500;letter-spacing:.06em;color:#B9C1D3}
 .name{display:flex;align-items:baseline;gap:8px;margin:0}
 .name strong{font-size:28px;font-weight:700}
 .name span{font-size:15px;color:var(--sub);font-weight:500}
@@ -80,7 +79,7 @@ footer b span{color:var(--gold-ink)}
 <body>
 <div class="wrap">
   <header class="hero">
-    <div class="brand"><b>nomad<span>&amp;co.</span></b><small>GEO · AI-NATIVE</small></div>
+    <div class="brand"><div><b>nomad<span>&amp;co.</span></b><span class="ko">노마드앤코</span></div><small>GEO · AI-NATIVE</small></div>
     <button class="flip" id="flip" type="button" aria-label="명함 뒤집기">
       <div class="inner">
         <div class="face front"><img src="card_front_green.png" alt="노마드앤코 명함 앞면"></div>
@@ -92,9 +91,8 @@ footer b span{color:var(--gold-ink)}
 
   <main>
     <section class="body">
-      <p class="co">노마드앤코 <span class="mn">NOMAD &amp; CO.</span></p>
       <h1 class="name"><strong>이준섭</strong><span>대표</span></h1>
-      <p class="en mn">LEE JUNSEOB · CEO</p>
+      <p class="en mn">LEE JUNSEOB · CEO · NOMAD &amp; CO.</p>
       <div class="badges">
         <figure><img src="badge_influencer.png" alt="네이버 경제 인플루언서 배지" width="80" height="80"><figcaption>네이버<br>경제 인플루언서</figcaption></figure>
         <figure><img src="badge_feedmaker.png" alt="네이버 피드메이커 2기 배지" width="80" height="80"><figcaption>네이버<br>피드메이커 2기</figcaption></figure>
